@@ -1,9 +1,1 @@
-# Resources from RefugeesCodeMelbourne tutorials
-
-## Check out the tutorials from our [blog](https://resources.refugeescode.com/)
-
----
-
-[Website](https://refugeescode.com/) | [Instagram](https://www.instagram.com/refugees.code.melbourne/) | [Facebook](https://www.facebook.com/refugees.code.melbourne/)
-
----
+[How to build a nicer web page with HTML and CSS](https://resources.refugeescode.com/how-to-build-a-nicer-web-page-with-html-and-css)

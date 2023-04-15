@@ -1,5 +1,29 @@
 body {
-  background-color: pink;
+  background-color: #264653;
   font-family: Arial, Helvetica, sans-serif;
   padding: 24px;
+  color: white;
+}
+
+.section_one {
+  background-color: #e9c46a;
+}
+.section_two {
+  background-color: #f4a261;
+}
+.section_three {
+  background-color: #e76f51;
+}
+
+.section {
+  padding: 8px 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.header {
+  border-bottom: #2a9d8f solid 4px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  display: inline-block;
 }
