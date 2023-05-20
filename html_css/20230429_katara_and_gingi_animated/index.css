@@ -1,4 +1,5 @@
 body {
+  background-image: linear-gradient(to bottom right, #8d99ae, #f08080);
   background-color: #8d99ae;
   padding-left: 24px;
   padding-right: 24px;
@@ -62,4 +63,23 @@ body {
 }
 .text_right {
   text-align: right;
+  animation-name: text_animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+.text_left {
+  animation-name: text_animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes text_animation {
+  0% {
+    top: 400px;
+    position: relative;
+  }
+  100% {
+    top: 0px;
+    position: relative;
+  }
 }
