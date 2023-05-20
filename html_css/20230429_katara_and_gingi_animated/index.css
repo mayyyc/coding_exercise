@@ -21,25 +21,30 @@ body {
   0% {
     left: -400px;
     position: relative;
+    color: #2b2d42;
   }
   100% {
     left: 0px;
     position: relative;
+    color: #9d0208;
   }
 }
 .gingi {
   animation-name: gingi_animation;
   animation-duration: 1s;
   animation-timing-function: ease-in;
+  color: #2b2d42;
 }
 @keyframes gingi_animation {
   0% {
-    left: 600px;
+    left: 400px;
     position: relative;
+    color: #edf2f4;
   }
   100% {
     left: 0px;
     position: relative;
+    color: #2b2d42;
   }
 }
 .cover_figure {
