@@ -4,6 +4,4 @@
 
 ---
 
-[Website](https://refugeescode.com/) | [Instagram](https://www.instagram.com/refugees.code.melbourne/) | [Facebook](https://www.facebook.com/refugees.code.melbourne/)
-
----
+## [Website](https://refugeescode.com/) | [Instagram](https://www.instagram.com/refugees.code.melbourne/)
