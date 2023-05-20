@@ -38,4 +38,7 @@ body {
   .sections {
     flex-direction: column;
   }
+  .section {
+    width: auto;
+  }
 }
