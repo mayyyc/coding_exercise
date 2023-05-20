@@ -12,6 +12,20 @@ body {
   width: 100%;
   text-align: center;
 }
+.katara {
+  animation-name: katara_animation;
+  animation-duration: 1s;
+}
+@keyframes katara_animation {
+  0% {
+    left: -400px;
+    position: relative;
+  }
+  100% {
+    left: 0px;
+    position: relative;
+  }
+}
 .cover_figure {
   width: 68%;
 }
