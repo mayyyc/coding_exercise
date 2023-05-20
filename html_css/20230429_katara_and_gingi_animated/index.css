@@ -26,6 +26,20 @@ body {
     position: relative;
   }
 }
+.gingi {
+  animation-name: gingi_animation;
+  animation-duration: 1s;
+}
+@keyframes gingi_animation {
+  0% {
+    left: 600px;
+    position: relative;
+  }
+  100% {
+    left: 0px;
+    position: relative;
+  }
+}
 .cover_figure {
   width: 68%;
 }
