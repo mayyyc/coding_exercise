@@ -15,6 +15,7 @@ body {
 .katara {
   animation-name: katara_animation;
   animation-duration: 1s;
+  animation-timing-function: ease-in;
 }
 @keyframes katara_animation {
   0% {
@@ -29,6 +30,7 @@ body {
 .gingi {
   animation-name: gingi_animation;
   animation-duration: 1s;
+  animation-timing-function: ease-in;
 }
 @keyframes gingi_animation {
   0% {
