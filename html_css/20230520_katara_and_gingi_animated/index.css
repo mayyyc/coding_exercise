@@ -83,3 +83,10 @@ body {
     position: relative;
   }
 }
+
+.flying_cat_food {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
