@@ -87,11 +87,12 @@ body {
 .flying_cat_food {
   width: 200px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -200px;
+  left: -200px;
   animation-name: cat_food_animation;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-delay: 2s;
 }
 
 @keyframes cat_food_animation {
@@ -102,14 +103,17 @@ body {
   25% {
     left: 100%;
     top: 100%;
+    transform: rotateZ(180deg);
   }
   50% {
     left: 60%;
     top: 0;
+    transform: rotateZ(360deg);
   }
   75% {
     left: 40%;
     top: 100%;
+    transform: rotateZ(180deg);
   }
   100% {
     left: 0;
