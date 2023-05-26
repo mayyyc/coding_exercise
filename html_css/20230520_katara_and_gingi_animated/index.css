@@ -89,4 +89,30 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  animation-name: cat_food_animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cat_food_animation {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 100%;
+    top: 100%;
+  }
+  50% {
+    left: 60%;
+    top: 0;
+  }
+  75% {
+    left: 40%;
+    top: 100%;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
 }
